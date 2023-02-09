@@ -1,0 +1,132 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  /* margin: 102px auto; */
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.main-div {
+  width: 354px;
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-box {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  color: #1f2e55;
+  margin-bottom: 17px;
+}
+
+.text-box-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717fa6;
+}
+
+.price-box {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f9ff;
+  border-radius: 11px;
+}
+
+.content-box {
+  display: flex;
+  gap: 20px;
+}
+
+h6 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+  margin-bottom: 6px;
+}
+
+.price-text {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+.change-btn {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+
+.change-btn:hover {
+  text-decoration-line: none;
+}
+
+button {
+  font-weight: 800;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  color: white;
+  padding: 15px 0;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #766cf1;
+  transition: all 0.3s ease;
+}
+
+.cencel-btn {
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cencel-btn:hover {
+  color: #1f2e55;
+  transition: all 0.3s ease;
+}
